@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    height: 80%;
+
+
+}
+
+.nav {
+    background-color: grey;
+    text-align: center;
+    font-size: 25px;
+    font-family: Helvetica;
+    padding: 50px;
+    display: fixed;
+    width: 100px;
+}
+
+li a:hover {
+    background-color: blue;
+    color: white
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+
+.main-div {
+    display: flex;
+    height: 92vh;
+    gap: 20px;
+}
